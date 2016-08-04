@@ -14,13 +14,13 @@
 		4E7070651D488F92006D2BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7070641D488F92006D2BD8 /* main.m */; };
 		4E7070691D488F92006D2BD8 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7070681D488F92006D2BD8 /* CCAppDelegate.m */; };
 		4E70706C1D488F92006D2BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E70706A1D488F92006D2BD8 /* Main.storyboard */; };
-		4E70706F1D488F92006D2BD8 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70706E1D488F92006D2BD8 /* CCViewController.m */; };
 		4E7070711D488F92006D2BD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7070701D488F92006D2BD8 /* Images.xcassets */; };
 		4E7070781D488F92006D2BD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7070771D488F92006D2BD8 /* XCTest.framework */; };
 		4E7070791D488F92006D2BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7070581D488F91006D2BD8 /* Foundation.framework */; };
 		4E70707A1D488F92006D2BD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70705C1D488F92006D2BD8 /* UIKit.framework */; };
 		4E7070821D488F92006D2BD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E7070801D488F92006D2BD8 /* InfoPlist.strings */; };
 		4E7070841D488F92006D2BD8 /* GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7070831D488F92006D2BD8 /* GitHubTests.m */; };
+		4E90ED391D521F940081FAB9 /* newtableviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E90ED381D521F940081FAB9 /* newtableviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		4E7070671D488F92006D2BD8 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		4E7070681D488F92006D2BD8 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		4E70706B1D488F92006D2BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4E70706D1D488F92006D2BD8 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		4E70706E1D488F92006D2BD8 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		4E7070701D488F92006D2BD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4E7070761D488F92006D2BD8 /* GitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7070771D488F92006D2BD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4E70707F1D488F92006D2BD8 /* GitHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHubTests-Info.plist"; sourceTree = "<group>"; };
 		4E7070811D488F92006D2BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E7070831D488F92006D2BD8 /* GitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubTests.m; sourceTree = "<group>"; };
+		4E90ED371D521F940081FAB9 /* newtableviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newtableviewViewController.h; path = ../newtableviewViewController.h; sourceTree = "<group>"; };
+		4E90ED381D521F940081FAB9 /* newtableviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newtableviewViewController.m; path = ../newtableviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				4E7070671D488F92006D2BD8 /* CCAppDelegate.h */,
 				4E7070681D488F92006D2BD8 /* CCAppDelegate.m */,
 				4E70706A1D488F92006D2BD8 /* Main.storyboard */,
-				4E70706D1D488F92006D2BD8 /* CCViewController.h */,
-				4E70706E1D488F92006D2BD8 /* CCViewController.m */,
+				4E90ED371D521F940081FAB9 /* newtableviewViewController.h */,
+				4E90ED381D521F940081FAB9 /* newtableviewViewController.m */,
 				4E7070701D488F92006D2BD8 /* Images.xcassets */,
 				4E70705F1D488F92006D2BD8 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7070691D488F92006D2BD8 /* CCAppDelegate.m in Sources */,
+				4E90ED391D521F940081FAB9 /* newtableviewViewController.m in Sources */,
 				4E7070651D488F92006D2BD8 /* main.m in Sources */,
-				4E70706F1D488F92006D2BD8 /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +461,7 @@
 				4E7070891D488F92006D2BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E70708A1D488F92006D2BD8 /* Build configuration list for PBXNativeTarget "GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				4E70708C1D488F92006D2BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
